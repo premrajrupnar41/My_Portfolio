@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional portfolio of Premraj Rupnar, an Artificial Intelligence & Data Science graduate specializing in Machine Learning, Deep Learning, and Generative AI.">
+    <title>Premraj Rupnar | AI & ML Engineer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" id="nav-logo">Premraj Rupnar</a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" id="link-home">Home</a>
+                <a href="#about" class="nav-link" id="link-about">About</a>
+                <a href="#education" class="nav-link" id="link-education">Education</a>
+                <a href="#skills" class="nav-link" id="link-skills">Skills</a>
+                <a href="#projects" class="nav-link" id="link-projects">Projects</a>
+                <a href="#experience" class="nav-link" id="link-experience">Experience</a>
+                <a href="#certifications" class="nav-link" id="link-certifications">Certificates</a>
+                <a href="#contact" class="nav-link" id="link-contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle visual theme">
+                    <!-- Sun Icon -->
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+                    </svg>
+                    <!-- Moon Icon -->
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Open navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="hero-bg-gradients">
+                <div class="gradient-sphere blob-1"></div>
+                <div class="gradient-sphere blob-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="welcome-badge">Welcome to My Portfolio</span>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight-text">Premraj Rupnar</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I am an <span id="typewriter" class="typewriter-text"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        Artificial Intelligence & Data Science graduate AI/ML Engineer & Python Full Stack Developer
+                        passionate about building intelligent AI solutions and scalable web applications using Python,
+                        Machine Learning, Deep Learning, FastAPI, and modern web technologies.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary" id="hero-btn-projects">
+                            Explore Projects
+                            <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" id="hero-btn-contact">Get in Touch</a>
+
+                    </div>
+                    <div class="hero-social-links social-links" style="margin-top: 32px;">
+                        <a href="https://github.com/repos" target="_blank" class="social-icon"
+                            aria-label="GitHub Profile">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/premraj-rupnar-9a5454291" target="_blank"
+                            class="social-icon" aria-label="LinkedIn Profile">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="https://leetcode.com/u/premrajrupnar41/" target="_blank" class="social-icon"
+                            aria-label="LeetCode Profile">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                                <line x1="14" y1="4" x2="10" y2="20"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-card">
+                        <div class="card-dots">
+                            <span class="dot-red"></span>
+                            <span class="dot-yellow"></span>
+                            <span class="dot-green"></span>
+                        </div>
+                        <img src="assets/profile_photo.jpg" alt="Premraj Professional Portrait" class="hero-img"
+                            id="hero-avatar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="underline"></div>
+                    <p class="section-subtitle">Developing technical solutions for real-world problems.</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text-content reveal-on-scroll">
+                        <h3>Who I Am</h3>
+                        <p>
+                            I am an <strong>Artificial Intelligence & Data Science</strong> graduate with a strong
+                            foundation in modern machine learning, neural networks, and generative models. I specialize
+                            in applying Python Full Stack , Deep Learning, and RAG architectures to build complex,
+                            intelligent, and
+                            scale-ready engineering solutions.
+                        </p>
+                        <p>
+                            With experience working as a data analyst and AI/ML intern, I seek to apply analytical
+                            precision and data-driven methods to solve real-world problems and optimize systems within
+                            dynamic workspaces.
+                        </p>
+                    </div>
+                    <div class="about-coursework reveal-on-scroll">
+                        <h3>Core Academic Focus</h3>
+                        <ul class="coursework-list">
+                            <li>
+                                <span class="course-code">AI & DS</span>
+                                <span class="course-name">Supervised & Unsupervised Learning</span>
+                            </li>
+                            <li>
+                                <span class="course-code">AI & DS</span>
+                                <span class="course-name">Deep Neural Networks & Transfer Learning</span>
+                            </li>
+                            <li>
+                                <span class="course-code">AI & DS</span>
+                                <span class="course-name">Generative AI (LLMs, RAG, Prompt Eng.)</span>
+                            </li>
+                            <li>
+                                <span class="course-code">AI & DS</span>
+                                <span class="course-name">Advanced Data Structures & Algorithms</span>
+                            </li>
+                            <li>
+                                <span class="course-code">AI & DS</span>
+                                <span class="course-name">Database Systems , SQL Engineering and Visualization
+                                    Tools</span>
+                            </li>
+                            <li>
+                                <span class="course-code">AI & DS</span>
+                                <span class="course-name">React.js , FastAPI & Model Deployment</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education-section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Education</h2>
+                    <div class="underline"></div>
+                    <p class="section-subtitle">My academic foundation and educational history.</p>
+                </div>
+                <div class="education-timeline-container reveal-on-scroll">
+                    <div class="edu-timeline">
+                        <div class="edu-item">
+                            <span class="edu-duration">Aug 2023 - June 2026</span>
+                            <h4>Dr. D.Y Patil College of Engineering and Innovation</h4>
+                            <span class="edu-inst">BE in Artificial Intelligence and Data Science</span>
+                            <p>Rigorous curriculum focused on advanced statistical models, deep neural networks, and
+                                automated data processing.</p>
+                            <ul class="edu-bullets">
+                                <li><strong>Academic Grade:</strong> 9.65 CGPA</li>
+                                <li><strong>Location:</strong> Pune, Maharashtra, India</li>
+                            </ul>
+                        </div>
+                        <div class="edu-item">
+                            <span class="edu-duration">Aug 2020 - June 2023</span>
+                            <h4>All India Shri Shivaji Memorial Society, Polytechnic</h4>
+                            <span class="edu-inst">Diploma in Computer Engineering</span>
+                            <p>Gained a robust understanding of core computer architectures, basic networking, systems
+                                engineering, and programming design.</p>
+                            <ul class="edu-bullets">
+                                <li><strong>Academic Grade:</strong> 81.37 %</li>
+                                <li><strong>Location:</strong> Pune, Maharashtra, India</li>
+                            </ul>
+                        </div>
+                        <div class="edu-item">
+                            <span class="edu-duration">June 2019 - March 2020</span>
+                            <h4>Kai. Bhikoba Tambe Memorial High School</h4>
+                            <span class="edu-inst">SSC Secondary School Certificate</span>
+                            <p>Completed secondary education with academic distinction, establishing a strong foundation
+                                in mathematics, science, and computer science fundamentals.</p>
+                            <ul class="edu-bullets">
+                                <li><strong>Academic Grade:</strong> 85.40 %</li>
+                                <li><strong>Location:</strong> Pune, Maharashtra, India</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="underline"></div>
+                    <p class="section-subtitle">A balanced toolkit of software engineering, backend databases, and
+                        modern development workflows.</p>
+                </div>
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skills-card reveal-on-scroll">
+                        <div class="skills-card-header">
+                            <span class="skill-category-icon">💻</span>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skills-pills">
+                            <span class="skill-pill">Python</span>
+                            <span class="skill-pill">JavaScript</span>
+                            <span class="skill-pill">SQL</span>
+                        </div>
+                    </div>
+
+                    <!-- AI & Machine Learning -->
+                    <div class="skills-card reveal-on-scroll">
+                        <div class="skills-card-header">
+                            <span class="skill-category-icon">🤖</span>
+                            <h3>AI & Machine Learning</h3>
+                        </div>
+                        <div class="skills-pills">
+                            <span class="skill-pill">Machine Learning</span>
+                            <span class="skill-pill">Deep Learning</span>
+                            <span class="skill-pill">LLMs</span>
+                            <span class="skill-pill">Generative AI</span>
+                            <span class="skill-pill">RAG</span>
+                            <span class="skill-pill">Prompt Engineering</span>
+                        </div>
+                    </div>
+
+                    <!-- Frontend Development -->
+                    <div class="skills-card reveal-on-scroll">
+                        <div class="skills-card-header">
+                            <span class="skill-category-icon">🎨</span>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skills-pills">
+                            <span class="skill-pill">HTML5</span>
+                            <span class="skill-pill">CSS3</span>
+                            <span class="skill-pill">JavaScript</span>
+                            <span class="skill-pill">React.js</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend Development -->
+                    <div class="skills-card reveal-on-scroll">
+                        <div class="skills-card-header">
+                            <span class="skill-category-icon">⚙️</span>
+                            <h3>Backend Development</h3>
+                        </div>
+                        <div class="skills-pills">
+                            <span class="skill-pill">Python</span>
+                            <span class="skill-pill">Django</span>
+                            <span class="skill-pill">FastAPI</span>
+                            <span class="skill-pill">RestAPI</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Analytics & Databases -->
+                    <div class="skills-card reveal-on-scroll">
+                        <div class="skills-card-header">
+                            <span class="skill-category-icon">📊</span>
+                            <h3>Data Analytics & Databases</h3>
+                        </div>
+                        <div class="skills-pills">
+                            <span class="skill-pill">Power BI</span>
+                            <span class="skill-pill">Microsoft Excel</span>
+                            <span class="skill-pill">MySQL</span>
+                            <span class="skill-pill">PostgreSQL</span>
+                            <span class="skill-pill">MongoDB</span>
+                            <span class="skill-pill">SQLite</span>
+                        </div>
+                    </div>
+
+                    <!-- Core CS & Tools -->
+                    <div class="skills-card reveal-on-scroll">
+                        <div class="skills-card-header">
+                            <span class="skill-category-icon">🛠️</span>
+                            <h3>Core CS & Tools</h3>
+                        </div>
+                        <div class="skills-pills">
+                            <span class="skill-pill">Data Structures & Algorithms</span>
+                            <span class="skill-pill">OOPS</span>
+                            <span class="skill-pill">Git & GitHub</span>
+                            <span class="skill-pill">Postman</span>
+                            <span class="skill-pill">Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Showcase Projects</h2>
+                    <div class="underline"></div>
+                    <p class="section-subtitle">Real-world implementations of machine learning models and intelligent
+                        architectures.</p>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1: Smart Crop Recommendation -->
+                    <article class="project-card reveal-on-scroll" id="project-card-1">
+                        <div class="project-img-wrapper">
+                            <img src="assets/project_iot.png" alt="Smart Crop Recommendation System Illustration"
+                                class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link-icon" aria-label="GitHub Repository">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Scikit-Learn</span>
+                                <span class="tag">Pandas</span>
+                                <span class="tag">NumPy</span>
+                            </div>
+                            <h3 class="project-title">Smart Crop Recommendation</h3>
+                            <p class="project-description">
+                                Developed a machine learning-based crop recommendation system using Python,
+                                Scikit-learn, Pandas, and NumPy to recommend suitable crops.
+                            </p>
+                            <ul class="project-details-list">
+                                <li>Built predictive models using NPK, temperature, humidity, pH, and rainfall data to
+                                    improve crop recommendation accuracy.</li>
+                                <li>Used Random Forest classification algorithms to achieve high validation matches.
+                                </li>
+                                <li>Processed and scaled complex agricultural datasets for model training.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Medical Chatbot (RAG) -->
+                    <article class="project-card reveal-on-scroll" id="project-card-2">
+                        <div class="project-img-wrapper">
+                            <img src="assets/project_robotics.png"
+                                alt="Medically Tuned AI-Powered Chatbot RAG Illustration" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link-icon" aria-label="GitHub Repository">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">LangChain</span>
+                                <span class="tag">FAISS</span>
+                                <span class="tag">Hugging Face</span>
+                                <span class="tag">Streamlit</span>
+                            </div>
+                            <h3 class="project-title">Medically Tuned AI Chatbot</h3>
+                            <p class="project-description">
+                                Developed a Retrieval-Augmented Generation (RAG) medical chatbot providing accurate,
+                                context-aware responses from medical documents.
+                            </p>
+                            <ul class="project-details-list">
+                                <li>Integrated FAISS and Sentence Transformers to retrieve relevant medical contexts
+                                    with low latency.</li>
+                                <li>Implemented semantic search with vector embeddings while restricting the chatbot
+                                    strictly to healthcare queries.</li>
+                                <li>Deployed interactive UI using Streamlit for dynamic document-based medical querying.
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Quantum Brain Tumor Diagnosis -->
+                    <article class="project-card reveal-on-scroll" id="project-card-3">
+                        <div class="project-img-wrapper">
+                            <img src="assets/project_medical_ai.png"
+                                alt="Quantum-Powered Brain Tumor Diagnosis Illustration" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link-icon" aria-label="GitHub Repository">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">Keras</span>
+                                <span class="tag">PennyLane/Qiskit</span>
+                                <span class="tag">Quantum ML</span>
+                            </div>
+                            <h3 class="project-title">Quantum Brain Tumor Diagnosis</h3>
+                            <p class="project-description">
+                                Developed a hybrid Quantum Machine Learning model for MRI brain tumor classification,
+                                sorting scans into multiple tumor categories.
+                            </p>
+                            <ul class="project-details-list">
+                                <li>Integrated CNN-based feature extraction with quantum neural networks.</li>
+                                <li>Classified MRI brain scans into Glioma, Meningioma, Pituitary Tumor, and No Tumor.
+                                </li>
+                                <li>Optimized quantum circuits to accelerate model training and diagnosis efficiency.
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Section -->
+        <section class="experience-section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Internships & Experience</h2>
+                    <div class="underline"></div>
+                    <p class="section-subtitle">My professional contributions in technical internships.</p>
+                </div>
+                <div class="timeline">
+                    <!-- Item 1 -->
+                    <div class="timeline-item reveal-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">August 2025 - November 2025</div>
+                        <div class="timeline-content">
+                            <span class="timeline-badge">Internship</span>
+                            <h3>Data Analytics Intern</h3>
+                            <span class="company-name">INDITRONICS Pvt. Ltd. | Pune, Maharashtra</span>
+                            <p>
+                                Completed a 3-month internship focused on Data Analytics, including data collection,
+                                cleaning, transformation, and visualization. Worked with Python, Pandas, NumPy,
+                                Matplotlib, and Seaborn to analyze complex datasets and generate meaningful insights.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="timeline-item reveal-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">December 2024 - February 2025</div>
+                        <div class="timeline-content">
+                            <span class="timeline-badge">Internship</span>
+                            <h3>Python with Data Science and AI/ML Intern</h3>
+                            <span class="company-name">SUMAGO Infotech Pvt. Ltd. | Pune, Maharashtra</span>
+                            <p>
+                                Completed an internship focused on the fundamentals of Python programming, exploratory
+                                data analysis, and introductory machine learning. Gained hands-on experience in data
+                                manipulation using Pandas, data visualization with Matplotlib/Seaborn, and numerical
+                                computing with NumPy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications-section" id="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="underline"></div>
+                    <p class="section-subtitle">Professional credentials and specialized credentials.</p>
+                </div>
+                <div class="certs-grid reveal-on-scroll">
+                    <!-- Cert 1: Research Paper Publication -->
+                    <div class="cert-card">
+                        <div class="cert-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Paper Publication: Quantum-Powered Vision Network</h4>
+                            <span class="cert-issuer">IRJMETS Journal</span>
+                            <span class="cert-description"
+                                style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; line-height: 1.5;">Research
+                                paper on "Quantum-Powered Vision Network for Intelligent Brain Analysis" with an Impact
+                                Factor of 8.187.</span>
+                            <div class="cert-actions">
+                                <a href="#" class="cert-verify-link view-cert-btn" data-cert="assets/cert_irjmets.jpg"
+                                    data-title="IRJMETS - Certificate of Publication">
+                                    View Certificate
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cert 2: Conference Paper Presentation -->
+                    <div class="cert-card">
+                        <div class="cert-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Paper Presentation: Sustainable AI Innovations</h4>
+                            <span class="cert-issuer">2nd International Conference (ICSAIEM-2026)</span>
+                            <span class="cert-description"
+                                style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; line-height: 1.5;">Presented
+                                research paper "Quantum-Powered Vision Network for Intelligent Brain Analysis" organized
+                                by DY Patil College of Engineering.</span>
+                            <div class="cert-actions">
+                                <a href="#" class="cert-verify-link view-cert-btn" data-cert="assets/cert_dypatil.jpg"
+                                    data-title="ICSAIEM-2026 - Certificate of Presentation">
+                                    View Certificate
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cert 3: HP LIFE Data Science & Analytics -->
+                    <div class="cert-card">
+                        <div class="cert-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Data Science & Analytics</h4>
+                            <span class="cert-issuer">HP LIFE (HP Foundation)</span>
+                            <span class="cert-description"
+                                style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; line-height: 1.5;">Completed
+                                course on Data Science and Analytics practices, methodologies, and tools.</span>
+                            <div class="cert-actions">
+                                <a href="#" class="cert-verify-link view-cert-btn" data-cert="assets/cert_hplife.jpg"
+                                    data-title="HP LIFE - Data Science & Analytics Certificate">
+                                    View Certificate
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cert 4: Oracle AI Foundations -->
+                    <div class="cert-card">
+                        <div class="cert-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                            </svg>
+                        </div>
+                        <div class="cert-info">
+                            <h4>OCI 2025 Certified AI Foundations Associate</h4>
+                            <span class="cert-issuer">Oracle University</span>
+                            <span class="cert-description"
+                                style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; line-height: 1.5;">Demonstrated
+                                knowledge of AI concepts, Machine Learning, Deep Learning, and Generative AI on
+                                OCI.</span>
+                            <div class="cert-actions">
+                                <a href="#" class="cert-verify-link view-cert-btn" data-cert="assets/cert_oracle.jpg"
+                                    data-title="Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate">
+                                    View Certificate
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cert 5: Cisco JS Essentials -->
+                    <div class="cert-card">
+                        <div class="cert-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                            </svg>
+                        </div>
+                        <div class="cert-info">
+                            <h4>JavaScript Essentials 1</h4>
+                            <span class="cert-issuer">Cisco Networking Academy</span>
+                            <span class="cert-description"
+                                style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; line-height: 1.5;">Completed
+                                JavaScript programming fundamentals including variables, loops, functions, and standard
+                                DOM API operations.</span>
+                            <div class="cert-actions">
+                                <a href="#" class="cert-verify-link view-cert-btn" data-cert="assets/cert_cisco.jpg"
+                                    data-title="Cisco Networking Academy - JavaScript Essentials 1 Certificate">
+                                    View Certificate
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cert 6: Adobe Generative AI -->
+                    <div class="cert-card">
+                        <div class="cert-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                            </svg>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Generative AI Content Creation</h4>
+                            <span class="cert-issuer">Adobe (offered through Coursera)</span>
+                            <span class="cert-description"
+                                style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; line-height: 1.5;">Generative
+                                AI concepts, Adobe Firefly creative workflows, and practical applications of generative
+                                models in design.</span>
+                            <div class="cert-actions">
+                                <a href="#" class="cert-verify-link view-cert-btn" data-cert="assets/cert_adobe.jpg"
+                                    data-title="Adobe & Coursera - Generative AI Content Creation Certificate">
+                                    View Certificate
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="underline"></div>
+                    <p class="section-subtitle">Let's discuss data projects, machine learning research, or employment
+                        opportunities.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info reveal-on-scroll">
+                        <h3>Connect with Me</h3>
+                        <p>Feel free to reach out using the contact form, or connect via any of these professional
+                            channels. I typically respond within 24 hours.</p>
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="detail-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    </svg>
+                                </div>
+                                <div class="detail-text">
+                                    <span class="detail-label">Email</span>
+                                    <a href="mailto:premrajrupnar41@gmail.com"
+                                        class="detail-link">premrajrupnar41@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="detail-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                    </svg>
+                                </div>
+                                <div class="detail-text">
+                                    <span class="detail-label">Phone</span>
+                                    <a href="tel:+919665183037" class="detail-link">+91 9665183037</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="detail-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>
+                                </div>
+                                <div class="detail-text">
+                                    <span class="detail-label">Location</span>
+                                    <span class="detail-val">Pune, Maharashtra, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form reveal-on-scroll" id="contact-form"
+                        action="https://formsubmit.co/premrajrupnar41@gmail.com" method="POST" novalidate>
+                        <input type="hidden" name="_captcha" value="false">
+                        <div class="form-group">
+                            <input type="text" id="form-name" name="name" class="form-input" placeholder=" " required>
+                            <label for="form-name" class="form-label">Full Name</label>
+                            <span class="error-msg" id="name-error">Please enter your name</span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="form-email" name="email" class="form-input" placeholder=" "
+                                required>
+                            <label for="form-email" class="form-label">Email Address</label>
+                            <span class="error-msg" id="email-error">Please enter a valid email address</span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="form-subject" name="subject" class="form-input" placeholder=" "
+                                required>
+                            <label for="form-subject" class="form-label">Subject</label>
+                            <span class="error-msg" id="subject-error">Please enter a subject</span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="form-message" name="message" class="form-input form-textarea" placeholder=" "
+                                rows="5" required></textarea>
+                            <label for="form-message" class="form-label">Your Message</label>
+                            <span class="error-msg" id="message-error">Please write your message</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit" id="btn-submit">
+                            Send Message
+                            <svg class="btn-icon submit-icon" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                            </svg>
+                        </button>
+                        <div class="submit-feedback" id="submit-success">
+                            <svg class="success-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Message Sent! I'll get back to you soon.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Premraj. Built with passion & clean code.</p>
+            <div class="footer-links">
+                <a href="#home">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal Viewer -->
+    <div id="cert-modal" class="cert-modal" aria-hidden="true" aria-label="Certificate Image Viewer">
+        <span class="cert-modal-close" id="cert-modal-close">&times;</span>
+        <div class="cert-modal-content-container">
+            <img class="cert-modal-content" id="cert-modal-img" src="" alt="Certificate Image Preview">
+            <div id="cert-modal-caption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
